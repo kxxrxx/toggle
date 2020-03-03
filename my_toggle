@@ -53,7 +53,7 @@ int main(void)
     while(1)
     {
         // Delay for a bit.
-				SysCtlDelay(400000);	
+				SysCtlDelay(10000000);	
 
         // Toggle the LED.
         GPIO_PORTF_DATA_R ^=GREEN_MASK;
