@@ -7,7 +7,7 @@
 //*****************************************************************************
 //
 //!
-//! A very simple example that toggles the on-board red LED using direct register
+//! A very simple example that toggles (blinks) the on-board red LED using direct register
 //! access.
 //
 //*****************************************************************************
