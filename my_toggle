@@ -16,9 +16,9 @@
 void
 PortFunctionInit(void)
 {
-//
-		volatile uint32_t ui32Loop;   
-	// Enable the GPIO port that is used for the on-board LED.
+    //
+    volatile uint32_t ui32Loop;   
+    // Enable the GPIO port that is used for the on-board LED.
     //
     SYSCTL_RCGC2_R = SYSCTL_RCGC2_GPIOF;
 
